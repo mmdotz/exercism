@@ -25,7 +25,6 @@ class HelloWorldTest < Minitest::Test
   end
 
   def test_other_sample_name
-    skip
     assert_equal 'Hello, Bob!', HelloWorld.hello('Bob')
   end
 end
