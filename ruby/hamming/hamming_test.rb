@@ -83,7 +83,7 @@ class HammingTest < Minitest::Test
   # If you are curious, read more about constants on RubyDoc:
   # http://ruby-doc.org/docs/ruby-doc-bundle/UsersGuide/rg/constants.html
   def test_bookkeeping
-    skip
+    # skip
     assert_equal 1, Hamming::VERSION
   end
 end
